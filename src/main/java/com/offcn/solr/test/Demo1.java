@@ -23,7 +23,7 @@ public class Demo1 {
 //		deleteData();
 		
 //		saveAll();
-		System.out.print("111")
+		System.out.print("111");
 		deleteAllData();
 		
 //		fenyefind();
