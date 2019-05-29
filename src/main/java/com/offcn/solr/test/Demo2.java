@@ -11,11 +11,7 @@ import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.common.SolrInputDocument;
 
-/**
- * demo1å’Œdemo2ä¸å¯ä»¥å…±å­˜ï¼Œå› ä¸ºsolr-solrjå’Œspring-data-solråŒ…ä¸å¯ä»¥å…±å­˜
- * @author luoyanpeng
- *
- */
+
 public class Demo2 {
 
 	/*public static void main(String[] args) throws Exception {
