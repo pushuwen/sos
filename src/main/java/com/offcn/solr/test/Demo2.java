@@ -23,7 +23,7 @@ public class Demo2 {
 //		add(url);
 		getData(url);
 	}
-	 
+	 込込込込
 	public static void add(String url) throws Exception{
 		HttpSolrClient server = new HttpSolrClient(url);
 		SolrInputDocument doucemnt = new SolrInputDocument();
