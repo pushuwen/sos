@@ -12,7 +12,7 @@ import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.common.SolrInputDocument;
 
 /**
- * demo1和demo2不可以共存，因为solr-solrj和spring-data-solr包不可以共存
+ * demo1å’Œdemo2ä¸å¯ä»¥å…±å­˜ï¼Œå› ä¸ºsolr-solrjå’Œspring-data-solråŒ…ä¸å¯ä»¥å…±å­˜
  * @author luoyanpeng
  *
  */
@@ -23,7 +23,7 @@ public class Demo2 {
 //		add(url);
 		getData(url);
 	}
-	 ��������
+	 
 	public static void add(String url) throws Exception{
 		HttpSolrClient server = new HttpSolrClient(url);
 		SolrInputDocument doucemnt = new SolrInputDocument();
@@ -41,7 +41,7 @@ public class Demo2 {
 //		query.setStart(0);
 //		query.setRows(10);
 		
-		// 查询
+		// æŸ¥è¯¢
 		QueryResponse response = server.query(query);
 		SolrDocumentList rs = response.getResults();
 		for(SolrDocument list :rs){
