@@ -37,7 +37,7 @@ public class Demo2 {
 //		query.setStart(0);
 //		query.setRows(10);
 		
-		// æŸ¥è¯¢
+		
 		QueryResponse response = server.query(query);
 		SolrDocumentList rs = response.getResults();
 		for(SolrDocument list :rs){
