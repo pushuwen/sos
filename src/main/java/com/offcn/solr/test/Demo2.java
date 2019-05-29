@@ -34,7 +34,7 @@ public class Demo2 {
 		server.commit();
 		System.out.println("ok");
 	}
-	int a = 0;
+	
 	public static void getData(String url) throws Exception{
 		HttpSolrClient server = new HttpSolrClient(url);
 		SolrQuery query = new SolrQuery("name:xiaocang");
